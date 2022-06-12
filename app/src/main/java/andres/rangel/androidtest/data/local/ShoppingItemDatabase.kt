@@ -1,4 +1,4 @@
-package andres.rangel.androidtest.room.data.local
+package andres.rangel.androidtest.data.local
 
 import androidx.room.Database
 import androidx.room.RoomDatabase

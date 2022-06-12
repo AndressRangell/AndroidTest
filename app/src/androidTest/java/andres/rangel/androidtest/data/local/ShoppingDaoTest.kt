@@ -1,4 +1,4 @@
-package andres.rangel.androidtest.room.data.local
+package andres.rangel.androidtest.data.local
 
 import andres.rangel.androidtest.getOrAwaitValue
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
