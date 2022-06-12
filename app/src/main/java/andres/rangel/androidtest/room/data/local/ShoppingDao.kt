@@ -1,4 +1,4 @@
-package andres.rangel.androidtest.data.local
+package andres.rangel.androidtest.room.data.local
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
