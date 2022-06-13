@@ -1,5 +1,6 @@
-package andres.rangel.androidtest
+package andres.rangel.androidtest.ui
 
+import andres.rangel.androidtest.R
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 

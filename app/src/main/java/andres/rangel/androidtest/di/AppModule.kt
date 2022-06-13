@@ -1,7 +1,10 @@
 package andres.rangel.androidtest.di
 
+import andres.rangel.androidtest.data.local.ShoppingDao
 import andres.rangel.androidtest.data.local.ShoppingItemDatabase
 import andres.rangel.androidtest.data.remote.PixabayAPI
+import andres.rangel.androidtest.repositories.DefaultShoppingRepository
+import andres.rangel.androidtest.repositories.ShoppingRepository
 import andres.rangel.androidtest.utils.Constants.BASE_URL
 import andres.rangel.androidtest.utils.Constants.DATABASE_NAME
 import android.content.Context
@@ -24,6 +27,13 @@ object AppModule {
     fun provideShoppingItemDatabase(
         @ApplicationContext context: Context
     ) = Room.databaseBuilder(context, ShoppingItemDatabase::class.java, DATABASE_NAME).build()
+
+    @Singleton
+    @Provides
+    fun provideDefaultShoppingRepository(
+        dao: ShoppingDao,
+        api: PixabayAPI
+    ) = DefaultShoppingRepository(dao, api) as ShoppingRepository
 
     @Singleton
     @Provides
