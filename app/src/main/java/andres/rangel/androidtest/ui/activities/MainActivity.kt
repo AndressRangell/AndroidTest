@@ -1,4 +1,4 @@
-package andres.rangel.androidtest.ui
+package andres.rangel.androidtest.ui.activities
 
 import andres.rangel.androidtest.R
 import androidx.appcompat.app.AppCompatActivity

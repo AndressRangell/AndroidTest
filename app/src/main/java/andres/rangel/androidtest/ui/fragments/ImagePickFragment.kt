@@ -1,6 +1,7 @@
-package andres.rangel.androidtest.ui
+package andres.rangel.androidtest.ui.fragments
 
 import andres.rangel.androidtest.R
+import andres.rangel.androidtest.ui.viewmodels.ShoppingViewModel
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
