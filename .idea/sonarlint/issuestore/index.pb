@@ -36,8 +36,6 @@ Mapp/src/main/java/andres/rangel/androidtest/ui/fragments/ImagePickFragment.kt,
 Lapp/src/main/java/andres/rangel/androidtest/ui/fragments/ShoppingFragment.kt,b/3/b3e2f65b6c703138c4f5a0d66b7c6d6102eeacc7
 m
 =app/src/main/java/andres/rangel/androidtest/utils/Resource.kt,1/8/18df53540d619211b59d10051d6892e56a4acff4
-y
-Iapp/src/main/java/andres/rangel/androidtest/ui/activities/MainActivity.kt,f/0/f0e1fb192a2d9d316f5ae2def274d36df26a1fab
 …
 Uapp/src/main/java/andres/rangel/androidtest/repositories/DefaultShoppingRepository.kt,9/1/91f2f14dea4833e0353b76c111997a51e64aafbc
 ~
