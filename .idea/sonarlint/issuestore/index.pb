@@ -12,8 +12,6 @@ P
  app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
 r
 Bapp/src/main/java/andres/rangel/androidtest/ShoppingApplication.kt,6/0/60037ec776031fcfa30f49ef4eaa535120e1f402
-n
->app/src/main/java/andres/rangel/androidtest/utils/Constants.kt,7/c/7c095ea374f4082edc3933debf3aa9ae25c62415
 u
 Eapp/src/main/java/andres/rangel/androidtest/data/local/ShoppingDao.kt,2/1/21ea2d92ab28acecde22ac7a753d26cffb149c85
 j
@@ -28,8 +26,6 @@ Qapp/src/main/java/andres/rangel/androidtest/data/remote/response/ImageResponse.
 Oapp/src/main/java/andres/rangel/androidtest/data/remote/response/ImageResult.kt,8/b/8bd8d3a819eb534a551ade6f6e9129c2e606f970
 u
 Eapp/src/main/java/andres/rangel/androidtest/data/remote/PixabayApi.kt,4/4/4498c8ad368b1ccb2df9026ed5b052c4921fee76
-}
-Mapp/src/main/java/andres/rangel/androidtest/ui/fragments/ImagePickFragment.kt,b/1/b188898d4ecc549ef8ad4e473808851f14402f10
 m
 =app/src/main/java/andres/rangel/androidtest/utils/Resource.kt,1/8/18df53540d619211b59d10051d6892e56a4acff4
 …
@@ -42,10 +38,6 @@ Rapp/src/test/java/andres/rangel/androidtest/repositories/FakeShoppingRepository
 Mapp/src/androidTest/java/andres/rangel/androidtest/liveDataUtilAndroidTest.kt,8/6/8653b1bef15773e6653bcf13aae04cd43cd0607f
 o
 ?app/src/test/java/andres/rangel/androidtest/liveDataUtilTest.kt,c/c/ccdc7667097f78965e81df6df6a862802178afa6
-k
-;app/src/main/java/andres/rangel/androidtest/di/AppModule.kt,7/9/79687f966d03aadf4ee8aa026f89ff0d37045f4c
-v
-Fapp/src/androidTest/java/andres/rangel/androidtest/di/TestAppModule.kt,d/9/d9253b6568b493a0f8917f85db261008438155af
 w
 Gapp/src/test/java/andres/rangel/androidtest/ui/ShoppingViewModelTest.kt,7/0/70bb68eb289c04a73f2ac4260886675094465673
 p

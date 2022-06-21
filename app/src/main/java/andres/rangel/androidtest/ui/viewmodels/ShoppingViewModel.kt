@@ -25,7 +25,7 @@ class ShoppingViewModel @Inject constructor(
 
     private val images = MutableLiveData<Event<Resource<ImageResponse>>>()
 
-    private val currentImageUrl = MutableLiveData<String>()
+    val currentImageUrl = MutableLiveData<String>()
 
     val insertShoppingItemStatus = MutableLiveData<Event<Resource<ShoppingItem>>>()
 

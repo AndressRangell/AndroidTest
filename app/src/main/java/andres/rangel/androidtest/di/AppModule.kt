@@ -1,5 +1,6 @@
 package andres.rangel.androidtest.di
 
+import andres.rangel.androidtest.R
 import andres.rangel.androidtest.data.local.ShoppingDao
 import andres.rangel.androidtest.data.local.ShoppingItemDatabase
 import andres.rangel.androidtest.data.remote.PixabayAPI
@@ -9,6 +10,8 @@ import andres.rangel.androidtest.utils.Constants.BASE_URL
 import andres.rangel.androidtest.utils.Constants.DATABASE_NAME
 import android.content.Context
 import androidx.room.Room
+import com.bumptech.glide.Glide
+import com.bumptech.glide.request.RequestOptions
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -34,6 +37,16 @@ object AppModule {
         dao: ShoppingDao,
         api: PixabayAPI
     ) = DefaultShoppingRepository(dao, api) as ShoppingRepository
+
+    @Singleton
+    @Provides
+    fun provideGlideInstance(
+        @ApplicationContext context: Context
+    ) = Glide.with(context).setDefaultRequestOptions(
+        RequestOptions()
+            .placeholder(R.drawable.ic_image)
+            .error(R.drawable.ic_image)
+    )
 
     @Singleton
     @Provides
