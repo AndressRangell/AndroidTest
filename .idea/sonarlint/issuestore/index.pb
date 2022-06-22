@@ -48,3 +48,17 @@ y
 Iapp/src/main/java/andres/rangel/androidtest/ui/activities/MainActivity.kt,f/0/f0e1fb192a2d9d316f5ae2def274d36df26a1fab
 Q
 !app/src/debug/AndroidManifest.xml,6/4/64e40361e5f707c52d6c7e7a1c8739d3cdfac01e
+p
+@app/src/debug/java/andres/rangel/androidtest/HiltTestActivity.kt,9/b/9bb68242649dea94caf5661a69fbee2d2ae51c7a
+€
+Papp/src/androidTest/java/andres/rangel/androidtest/data/local/ShoppingDaoTest.kt,a/b/abef9a8c89294cd7c9e43d5d1368361181bc7bfa
+n
+>app/src/main/java/andres/rangel/androidtest/utils/Constants.kt,7/c/7c095ea374f4082edc3933debf3aa9ae25c62415
+v
+Fapp/src/androidTest/java/andres/rangel/androidtest/di/TestAppModule.kt,d/9/d9253b6568b493a0f8917f85db261008438155af
+k
+;app/src/main/java/andres/rangel/androidtest/di/AppModule.kt,7/9/79687f966d03aadf4ee8aa026f89ff0d37045f4c
+@
+app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
+”
+dapp/src/androidTest/java/andres/rangel/androidtest/repositories/FakeShoppingRepositoryAndroidTest.kt,2/1/219c92ffb3b64d4d425c367c16fc3c9c7e34f534
